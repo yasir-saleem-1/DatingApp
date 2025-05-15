@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@angular/animations": "^19.0.1",
+    "@angular/core": "^19.0.1"
+  }
+}
