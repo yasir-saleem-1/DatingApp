@@ -13,7 +13,7 @@ public class UserRepository(DataContext context , IMapper mapper) : IUserReposit
     public async Task<MemberDto?> GetMemberAsync(string username)
     {
         return await context.Users
-            .Where(user => user.FirstName == username)
+            .Where(user => user.UserName == username)
             .ProjectTo<MemberDto>(mapper.ConfigurationProvider)
             .SingleOrDefaultAsync();
     }
@@ -34,7 +34,7 @@ public class UserRepository(DataContext context , IMapper mapper) : IUserReposit
     {
             return await context.Users
             .Include(user => user.Photos)
-            .SingleOrDefaultAsync(user => user.FirstName == username);
+            .SingleOrDefaultAsync(user => user.UserName== username);
     }
 
     public async Task<IEnumerable<AppUser>> GetUsersAsync()

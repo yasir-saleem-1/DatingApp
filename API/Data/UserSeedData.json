@@ -1,6 +1,7 @@
 [
   {
-    "FirstName": "Amanda",
+    "UserName": "Amanda",
+    "Password": "Amanda",
     "Gender": "female",
     "DateOfBirth": "1995-09-11",
     "KnownAs": "undefined",
@@ -19,7 +20,8 @@
     ]
   },
   {
-    "FirstName": "Melinda",
+    "UserName": "Melinda",
+    "Password": "Melinda",
     "Gender": "female",
     "DateOfBirth": "1972-09-16",
     "KnownAs": "undefined",
@@ -38,7 +40,8 @@
     ]
   },
   {
-    "FirstName": "Lucille",
+    "UserName": "Lucille",
+    "Password": "Lucille",
     "Gender": "female",
     "DateOfBirth": "1958-05-11",
     "KnownAs": "undefined",
@@ -57,7 +60,8 @@
     ]
   },
   {
-    "FirstName": "Sheila",
+    "UserName": "Sheila",
+    "Password": "Sheila",
     "Gender": "female",
     "DateOfBirth": "1993-07-28",
     "KnownAs": "undefined",
@@ -76,7 +80,8 @@
     ]
   },
   {
-    "FirstName": "Fannie",
+    "UserName": "Fannie",
+    "Password": "Fannie",
     "Gender": "female",
     "DateOfBirth": "1982-04-16",
     "KnownAs": "undefined",
@@ -94,9 +99,9 @@
       }
     ]
   },
-  
   {
-    "FirstName": "Graves",
+    "UserName": "Graves",
+    "Password": "Graves",
     "Gender": "male",
     "DateOfBirth": "1950-07-15",
     "KnownAs": "undefined",
@@ -115,7 +120,8 @@
     ]
   },
   {
-    "FirstName": "Fletcher",
+    "UserName": "Fletcher",
+    "Password": "Fletcher",
     "Gender": "male",
     "DateOfBirth": "1988-10-28",
     "KnownAs": "undefined",
@@ -134,7 +140,8 @@
     ]
   },
   {
-    "FirstName": "Banks",
+    "UserName": "Banks",
+    "Password": "Banks",
     "Gender": "male",
     "DateOfBirth": "1966-02-15",
     "KnownAs": "undefined",
@@ -153,7 +160,8 @@
     ]
   },
   {
-    "FirstName": "Mitchell",
+    "UserName": "Mitchell",
+    "Password": "Mitchell",
     "Gender": "male",
     "DateOfBirth": "1969-12-03",
     "KnownAs": "undefined",
@@ -172,7 +180,8 @@
     ]
   },
   {
-    "FirstName": "Britt",
+    "UserName": "Britt",
+    "Password": "Britt",
     "Gender": "male",
     "DateOfBirth": "1984-03-27",
     "KnownAs": "undefined",
@@ -190,5 +199,4 @@
       }
     ]
   }
-
 ]

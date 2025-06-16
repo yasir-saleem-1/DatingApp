@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplicationServices(builder.Configuration);
 
-//builder.Services.AddIdentityServices(builder.Configuration);
+builder.Services.AddIdentityServices(builder.Configuration);
 
 var app = builder.Build();
 
@@ -17,9 +17,9 @@ app.UseCors(x => x.AllowAnyHeader()
     .AllowAnyMethod()
     .WithOrigins("http://localhost:4200", "https://localhost:4200"));
 
-// app.UseAuthentication();
+ app.UseAuthentication();
 
-// app.UseAuthorization();
+ app.UseAuthorization();
 
 app.MapControllers();
 
