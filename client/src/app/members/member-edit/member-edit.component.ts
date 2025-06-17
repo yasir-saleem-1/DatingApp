@@ -7,11 +7,10 @@ import { FormsModule, NgForm } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
-  selector: 'app-member-edit',
-  standalone: true,
-  imports: [TabsModule , FormsModule],
-  templateUrl: './member-edit.component.html',
-  styleUrl: './member-edit.component.css'
+    selector: 'app-member-edit',
+    imports: [TabsModule, FormsModule],
+    templateUrl: './member-edit.component.html',
+    styleUrl: './member-edit.component.css'
 })
 export class MemberEditComponent implements OnInit {
   @ViewChild('editForm') editForm?: NgForm;

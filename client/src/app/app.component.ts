@@ -7,12 +7,11 @@ import { HomeComponent } from "./home/home.component";
 import { NgxSpinnerModule } from 'ngx-spinner';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  //imports: [RouterOutlet , NgFor],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  imports: [RouterOutlet, NavComponent, NgxSpinnerModule]
+    selector: 'app-root',
+    //imports: [RouterOutlet , NgFor],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    imports: [RouterOutlet, NavComponent, NgxSpinnerModule]
 })
 export class AppComponent implements OnInit {
   

@@ -7,11 +7,10 @@ import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({
-  selector: 'app-nav',
-  standalone: true,
-  imports: [FormsModule , BsDropdownModule , RouterLink ,RouterLinkActive , TitleCasePipe],
-  templateUrl: './nav.component.html',
-  styleUrl: './nav.component.css'
+    selector: 'app-nav',
+    imports: [FormsModule, BsDropdownModule, RouterLink, RouterLinkActive, TitleCasePipe],
+    templateUrl: './nav.component.html',
+    styleUrl: './nav.component.css'
 })
   export class NavComponent 
   {
