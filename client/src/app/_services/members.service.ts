@@ -22,13 +22,9 @@ export class MembersService {
   getMember(username: string) {
     return this.http.get<Member>(this.baseUrl + 'users/' + username );
   }
-
-  // getHttpOptions() {
-  //   return {
-  //     headers: {
-  //       Authorization: `Bearer ${this.accountService.currentUser()?.token}`
-  //     }
-  //   }
-  // }
+  
+  updateMember(member: Member) {
+    return this.http.put<Member>(this.baseUrl + 'users', member);
+  }
 
 }
